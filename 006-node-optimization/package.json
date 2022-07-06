@@ -1,0 +1,25 @@
+{
+  "name": "006-node-optimization",
+  "version": "1.0.0",
+  "description": "test application to introduce cache optimization concept",
+  "main": "server.js",
+  "engines": {
+    "node": ">=14.x",
+    "npm": ">=6.x"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "keywords": [
+    "flaviondev",
+    "nodejs",
+    "cache",
+    "optimization",
+    "mongodb"
+  ],
+  "author": "Flávio Nobre <flavionobredev@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
