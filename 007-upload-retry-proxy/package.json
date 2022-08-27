@@ -1,0 +1,24 @@
+{
+  "name": "007-upload-retry-proxy",
+  "version": "1.0.0",
+  "description": "Example for retrying uploads with proxy design pattern",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev --respawn --transpile-only --clear --ignore-watch node_modules --no-notify ./src/index.ts"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "design pattern",
+    "proxy"
+  ],
+  "author": "Flávio Nobre <flavionobredev@gmail.com>",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.8.2"
+  }
+}
